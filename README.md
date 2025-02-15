@@ -1,8 +1,8 @@
-# Duck OOP Implementation
+# 🦆 Duck OOP Implementation
 
 This project demonstrates a simple implementation of Object-Oriented Programming (OOP) principles using a `Duck` class in C#. The `Duck` class includes methods for quacking, swimming, displaying, and flying.
 
-## Directory Structure
+## 📂 Directory Structure
 
 ```
 Duck-OOP-Implementation/
@@ -18,7 +18,11 @@ Duck-OOP-Implementation/
 └── README.md
 ```
 
-## Getting Started
+## 🛠️ Prerequisites
+
+- [.NET SDK](https://dotnet.microsoft.com/download) installed on your machine.
+
+## 🚀 Getting Started
 
 Follow these steps to run the program:
 
@@ -47,12 +51,12 @@ Follow these steps to run the program:
      dotnet run
      ```
 
-## Project Files
+## 📄 Project Files
 
 - **Duck.cs:** Contains the `Duck` class with methods for quacking, swimming, displaying, and flying.
 - **Program.cs:** Contains the `Main` method which creates an instance of the `Duck` class and calls its methods.
 
-## Example Output
+## 🖥️ Example Output
 
 When you run the program, you should see the following output in the console:
 
@@ -63,6 +67,6 @@ Display
 Fly
 ```
 
-## License 📝
+## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
