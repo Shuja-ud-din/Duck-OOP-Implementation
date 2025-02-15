@@ -1,0 +1,31 @@
+# Visual Studio & .NET-related files
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.log
+*.cache
+*.csproj.user
+.vscode/
+.idea/
+
+# NuGet Packages
+packages/
+*.nupkg
+project.lock.json
+global.json
+
+# Build Artifacts
+TestResults/
+*.TestResults/
+*.vs/
+*.db
+
+# Rider & JetBrains IDEs
+.idea/
+*.suo
+*.user
+*.dotSettings
+*.ReSharper
+*.sln.iml
