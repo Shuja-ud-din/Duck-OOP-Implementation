@@ -1,6 +1,6 @@
 # 🦆 Duck OOP Implementation
 
-This project demonstrates a simple implementation of Object-Oriented Programming (OOP) principles using a `Duck` class in C#. The `Duck` class includes methods for quacking, swimming, displaying, and flying.
+This project demonstrates a simple implementation of Object-Oriented Programming (OOP) principles using a `Duck` class in C#. The `Duck` class includes methods for quacking, swimming, displaying, and flying. Different types of ducks are implemented using inheritance and behavior interfaces.
 
 ## 📂 Directory Structure
 
@@ -9,6 +9,7 @@ Duck-OOP-Implementation/
 │
 ├── src/
 │   ├── Duck.cs
+│   ├── Behaviuors.cs
 │
 ├── .gitignore
 ├── Duck-OOP-Implementation.sln
@@ -53,18 +54,31 @@ Follow these steps to run the program:
 
 ## 📄 Project Files
 
-- **Duck.cs:** Contains the `Duck` class with methods for quacking, swimming, displaying, and flying.
-- **Program.cs:** Contains the `Main` method which creates an instance of the `Duck` class and calls its methods.
+- **Duck.cs:** Contains the `Duck` class and its derived classes (`Mallard`, `RedheadDuck`, `RubberDuck`, `DecoyDuck`) with methods for quacking, swimming, displaying, and flying.
+- **Behaviuors.cs:** Contains the behavior interfaces (`FlyBehavior`, `QuackBehavior`) and their implementations (`FlyWithWings`, `FlyNoWay`, `Quack`, `Squeak`, `MuteQuack`).
+- **Program.cs:** Contains the `Main` method which creates instances of different duck types and calls their methods.
 
 ## 🖥️ Example Output
 
 When you run the program, you should see the following output in the console:
 
 ```
-Quack
-Swim
-Display
-Fly
+I am a Mallard
+I'm flying with wings
+Quack Quack
+I am swimming!
+I am a Redhead Duck
+I'm flying with wings
+Quack Quack
+I am swimming!
+I am a Rubber Duck
+ I'll never fly
+Squeak
+I am swimming!
+I am a Decoy Duck
+ I'll never fly
+Silence
+I am swimming!
 ```
 
 ## 📝 License
